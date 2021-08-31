@@ -1,6 +1,6 @@
      {
 	"name": "dot-net-complete-files",
-	"publisher": "david-kroods",
+	"publisher": "DavidKroods",
 	"author": {"name": "David Kroods", "email": "csharpdotdeveloper@gmail.com", "url": "https://www.linkedin.com/in/dkroods/"},
 	"displayName": "Dot Net Complete Files",
 	"description": "this extension creates normal dot net .cs files filled with begining code",
