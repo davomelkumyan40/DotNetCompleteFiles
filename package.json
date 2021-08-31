@@ -1,0 +1,43 @@
+     {
+	"name": "dot-net-complete-files",
+	"publisher": "david-kroods",
+	"author": {"name": "David Kroods", "email": "csharpdotdeveloper@gmail.com", "url": "https://www.linkedin.com/in/dkroods/"},
+	"displayName": "Dot Net Complete Files",
+	"description": "this extension creates normal dot net .cs files filled with begining code",
+	"repository": {"url": "https://github.com/davomelkumyan40/DotNetCompleteFiles.git" },
+	"version": "1.0.0",
+	"engines": {
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:dot-net-complete-files.DotNetCompleteFiles",
+		"onStartupFinished"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "dot-net-complete-files.DotNetCompleteFiles",
+				"title": "Dot Net Complete Files"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.59.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "14.x",
+		"eslint": "^7.27.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+	}
+}
